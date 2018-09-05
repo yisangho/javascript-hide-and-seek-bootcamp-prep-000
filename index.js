@@ -6,5 +6,17 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   const lis = document
   .getElementById("nested")
-  .querySelectorAll("div.target");
+  .querySelectorAll("div.target")
+
+  return lis;
+}
+
+function increaseRankBy(n) {
+  
+}
+
+function deepestChild() {
+  const lis = document.getElementById("grand-node")
+
+  return lis;
 }
